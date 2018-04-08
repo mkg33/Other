@@ -30,7 +30,7 @@ public class password {
 	
 	// String password1 = password.toString();
 	
-	if(password.length() >= 5 || password.length()<4) {
+	if(password.length()!=4) {
 		
 		System.out.println("Password too short or too long. Exiting.");
 		
