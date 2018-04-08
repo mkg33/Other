@@ -19,6 +19,8 @@ public class password {
 	char[] alphabet = all.toCharArray();
 	
 	String result = "";
+		
+	boolean success = false;
 	
 	// char[] password = console.readPassword("Password: ");
 	
@@ -60,6 +62,7 @@ public class password {
 						if(result.equals(password)) {
 							
 							System.out.println("Found it! Your password is: " + result);
+							success = true;
 							break outerloop;
 							
 						}
@@ -83,6 +86,10 @@ public class password {
 	
 	
 	}
+		
+		if(!success){
+		System.out.println("Invalid input. You entered a non-alphanumeric character. ");	
+		}
 
 }
 
