@@ -24,7 +24,7 @@ public class password {
 	
 	// char[] password = console.readPassword("Password: ");
 	
-	System.out.println("A very simple brute-force password cracker. \n Enter an alphanumeric password with four characters.\n\n");
+	System.out.println("\n A very simple brute-force password cracker.\nEnter an alphanumeric password with four characters.\n\n");
 	
 	System.out.print("Enter your password: ");
 	
